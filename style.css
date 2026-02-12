@@ -29,6 +29,10 @@
             color:var(--primary);
         }
 
+        li {
+            margin-left:15px;
+        }
+
         /* Header */
         header {
             background: var(--primary);
