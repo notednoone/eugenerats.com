@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eugene Rats | DIY Rat Control Guide!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="logo">
+                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Rat silhouette -->
+                    <ellipse cx="55" cy="50" rx="28" ry="20" fill="currentColor"/>
+                    <!-- Head -->
+                    <circle cx="75" cy="45" r="15" fill="currentColor"/>
+                    <!-- Ear -->
+                    <ellipse cx="82" cy="35" rx="6" ry="9" fill="currentColor"/>
+                    <!-- Snout -->
+                    <ellipse cx="88" cy="45" rx="8" ry="6" fill="currentColor"/>
+                    <!-- Nose -->
+                    <circle cx="93" cy="45" r="2.5" fill="#1a3a2e"/>
+                    <!-- Eye -->
+                    <circle cx="77" cy="42" r="2" fill="#1a3a2e"/>
+                    <!-- Tail -->
+                    <path d="M 30 55 Q 15 60, 8 68 Q 5 72, 3 78" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/>
+                    <!-- Legs -->
+                    <ellipse cx="65" cy="68" rx="4" ry="6" fill="currentColor"/>
+                    <ellipse cx="45" cy="68" rx="4" ry="6" fill="currentColor"/>
+                    <!-- Whiskers -->
+                    <line x1="88" y1="43" x2="98" y2="40" stroke="currentColor" stroke-width="0.5"/>
+                    <line x1="88" y1="45" x2="98" y2="45" stroke="currentColor" stroke-width="0.5"/>
+                    <line x1="88" y1="47" x2="98" y2="50" stroke="currentColor" stroke-width="0.5"/>
+                </svg>
+                Eugene Rat DIY Solutions
+            </h1>
+            <p class="tagline">Take control of your rat problem. DIY solutions that save you money.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Coming Soon!</p>
+    </div>
+
+    <footer>
+        <p>Eugene Rat DIY Solutions © 2026 | DIY pest control information for Eugene residents</p>
+        <p>This site provides educational information only. For severe infestations or health concerns, consult a professional.</p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+    <script>
+        // FAQ Accordion functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                
+                question.addEventListener('click', function() {
+                    // Toggle active class on clicked item
+                    item.classList.toggle('active');
+                    
+                    // Optional: Close other items when opening a new one
+                    // Uncomment the lines below if you want only one FAQ open at a time
+                    /*
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    */
+                });
+            });
+        });
+    </script>
+</body>
+</html>
