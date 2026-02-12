@@ -25,6 +25,10 @@
             overflow-x: hidden;
         }
 
+        a {
+            color:var(--primary);
+        }
+
         /* Header */
         header {
             background: var(--primary);
