@@ -549,6 +549,16 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
         }
 
+        /* Privacy */
+
+        #privacy ul {
+            padding:12px 0px;
+        }
+
+        #privacy ul li {
+            padding-left:15px;
+        }
+
         /* Footer */
         footer {
             background: var(--primary);
