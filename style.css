@@ -30,7 +30,7 @@
         }
 
         body ul li {
-            margin-left:15px;
+            padding-left:15px;
         }
 
         /* Header */
@@ -599,4 +599,5 @@
                 margin-right: -1rem;
             }
         }
+
 
