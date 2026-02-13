@@ -29,10 +29,6 @@
             color:var(--primary);
         }
 
-        body ul li {
-            padding-left:15px;
-        }
-
         /* Header */
         header {
             background: var(--primary);
@@ -599,5 +595,3 @@
                 margin-right: -1rem;
             }
         }
-
-
